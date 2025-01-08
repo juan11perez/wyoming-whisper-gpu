@@ -1,5 +1,4 @@
 Wyoming Whisper with gpu
-docker build . -t whisper-gpu:2.4.0
 
 ```
 whisper:
