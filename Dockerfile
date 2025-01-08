@@ -1,5 +1,4 @@
 # https://github.com/edurenye/wyoming-addons-gpu/blob/gpu/docker-compose.gpu.yml - modified the dockerfile to add the gpu directly onto base yaml
-# FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
 FROM nvidia/cuda:12.3.2-cudnn9-runtime-ubuntu22.04
 
 # Install Whisper
