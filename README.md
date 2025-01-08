@@ -1,6 +1,7 @@
 Wyoming Whisper with gpu
 docker build . -t whisper-gpu:2.4.0
 
+```
 whisper:
   container_name: whisper
   image: whisper-gpu
@@ -17,4 +18,5 @@ whisper:
         devices:
           - driver: nvidia
             count: 1
-            capabilities: [gpu]            
+            capabilities: [gpu]
+```
